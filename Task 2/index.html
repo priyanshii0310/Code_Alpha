@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/391827d54c.js" crossorigin="anonymous"></script>
+  <title>Whatsapp Web Clone</title>  
+</head>
+<body>
+  <div class="background-green"></div>
+  <div class="main-container">
+    <div class="left-container">
+      
+<!--header -->
+      <div class="header">
+        <div class="user-img">
+          <img class="dp" src="/Task 2/images/img3.png" alt="">
+        </div>   
+        <div class="nav-icons">
+          <li><i class="fa-solid fa-users"></i></li>
+          <li><i class="fa-solid fa-circle"></i></li>
+          <li><i class="fa-solid fa-message"></i></li>
+          <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+          
+        </div>
+      </div>
+      
+      
+<!--search-container -->
+      <div class="search-container">
+        <div class="input"> 
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search or start new chat   ">
+        </div>
+          <i class="fa-sharp fa-solid fa-bars-filter"></i>  
+      </div>
+      
+      
+<!--chats -->      
+      <div class="chat-list">
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="/Task 2/images/img4.png" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>John</h4>
+              <p class="time unread">09.50 pm</p>
+            </div>
+            <div class="text-message">
+              <p>Hey!!</p>
+              <b>1</b>
+            </div>
+          </div>
+        </div>
+        
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="/Task 2/images/img7.png" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Dad</h4>
+              <p class="time unread">05:27 pm</p>
+            </div>
+            <div class="text-message">
+              <p>“Have a nice day dear.”</p>
+              <b>2</b>
+            </div>
+          </div>
+        </div>
+        
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="/Task 2/images/img10.png" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Shruti</h4>
+              <p class="time">11:49 am</p>
+            </div>
+            <div class="text-message">
+              <p>Meet asap</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box" onclick="fun">
+          <div class="img-box">
+            <img class="img-cover" src="/Task 2/images/img6.png" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Tina</h4>
+              <p class="time unread">10:55 am</p>
+            </div>
+            <div class="text-message">
+              <p>Ohk</p>
+              <b>2</b>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box active">
+          <div class="img-box">
+            <img class="img-cover" src="/Task 2/images/img11.png" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Dhruvi</h4>
+              <p class="time">10:49 am</p>
+            </div>
+            <div class="text-message">
+              <p>Okay bye! I am getting late.</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="/Task 2/images/img8.png" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Nandini</h4>
+              <p class="time">Yesterday</p>
+            </div>
+            <div class="text-message">
+              <p>😂😂</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="/Task 2/images/img2.png" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Tarun</h4>
+              <p class="time unread">Yesterday</p>
+            </div>
+            <div class="text-message">
+              <p>https://mega.nz/folder/...</p>
+              <b>2</b>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="/Task 2/images/img5.png" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Jas</h4>
+              <p class="time">Monday</p>
+            </div>
+            <div class="text-message">
+              <p>Okay great</p>
+            </div>
+          </div>
+        </div>     
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="/Task 2/images/img9.png" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Jiya</h4>
+              <p class="time">Monday</p>
+            </div>
+            <div class="text-message">
+              <p>Bye!!</p>
+            </div>
+          </div>
+        </div>     
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="/Task 2/images/img12.png" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Taniya</h4>
+              <p class="time">Sunday</p>
+            </div>
+            <div class="text-message">
+              <p>Going well..</p>
+            </div>
+          </div>
+        </div>     
+      </div> 
+    </div>
+    
+
+<!--header -->    
+
+    <div class="right-container">
+      <div class="header">
+        <div class="img-text">
+          <div class="user-img">
+          <img class="dp" src="/Task 2/images/img11.png" alt="">
+        </div>
+          <h4>Dhruvi<br><span>Online</span></h4>
+        </div>
+        <div class="nav-icons">
+          <li><i class="fa-solid fa-magnifying-glass"></i></li>
+          <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+        </div>
+      </div>
+    
+<!--chat-container -->
+      <div class="chat-container">
+        <div class="message-box my-message">
+          <p>Hey! How are you?<br><span>10:42 am</span></p>
+        </div>
+        <div class="message-box friend-message">
+          <p>I m fine! How's your studies going?<br><span>10:43 am</span></p>
+        </div>
+        <div class="message-box my-message">
+          <p>I have topped  my university this year.<br><span>10:43 am</span></p>
+        </div>
+        <div class="message-box my-message">
+          <p>Now I m planning to continue studies aborad.<br><span>10:44</span></p>
+        </div>
+        <div class="message-box friend-message">
+          <p>Such a grt news! which field of career r u opting?<br><span>10:44 am</span></p>
+        </div>
+        <div class="message-box my-message">
+          <p>I m trying to continue career in engineering.<br><span>10:44 am</span></p>
+        </div>
+      <div class="message-box friend-message">
+          <p>Even I m planning to travel abroad for same.<br><span>10:45 am</span></p>
+        </div>
+        <div class="message-box my-message">
+          <p>Nice! What u think will be a better country for it?<br><span>10:45 am</span></p>
+        </div>
+        <div class="message-box friend-message">
+          <p>Well.. my relatives suggest that I must go to U.S. <br><span>10:46 am</span></p>
+        </div> 
+        <div class="message-box my-message">
+          <p>I will think upon it. Its a best choice.<br><span>10:47 am</span></p>
+        </div>
+        <div class="message-box friend-message">
+          <p>Okay bye I am getting late.<br><span>10:49 am</span></p>
+        </div>       
+      </div>
+      
+<!--input-bottom -->
+      <div class="chatbox-input">
+        <i class="fa-regular fa-face-grin"></i>
+        <i class="fa-sharp fa-solid fa-plus"></i>
+        <input type="text" placeholder="Type a message">
+        <i class="fa-solid fa-microphone"></i>
+      </div>
+    </div>
+  </div> 
+  <script src = "script.js"></script>
+</body>
+</html>
