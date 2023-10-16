@@ -1,0 +1,66 @@
+body{
+    padding: 80px;
+    font-family: Times New Roman;
+    font-size:  18px;
+    
+  }
+  .container{
+    background-color:lightyellow;
+    padding: 10px;
+    border :  5px solid brown;
+  }
+  .text-edit{
+    font-family:Verdena;
+    font-size:20px;
+  }
+  #title
+{
+    color: #0c0c0c;
+    font-weight: normal;
+    text-align: center;
+}
+#title h1{
+    font-size: 4vw;
+}
+#title h6{
+    font-size:2vw;
+    letter-spacing: .08em;
+    font-weight: 500;
+}
+#image{
+    position: relative;
+    height: 50% ;
+    width: 100%;
+    margin: auto;
+    border-radius: 16px;
+}
+#img-caption{
+    text-align: center;
+}
+#tribute-info{
+    color:#4f4f4f;
+    width: 80vw;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 16px;
+    text-align: center;
+}
+#tribute-info span{
+    color:#000;
+    text-align: left;
+}
+#head{
+    font-weight: bold;
+}
+ul{
+    list-style: inside;
+    text-align:left;
+    width: 45vw;
+    margin: auto;
+}
+li span{
+    font-weight: bold;
+} 
+#tribute-info a{
+    color:#333;
+}
